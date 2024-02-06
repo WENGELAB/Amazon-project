@@ -188,8 +188,8 @@
     justify-content: center;
     border-radius: 10px;
     overflow: hidden;
-    width: 80%;
-    flex: 1;
+    width: 55%;
+    /* flex: 1; */
   }
   
   .search select,
@@ -197,7 +197,7 @@
     padding: 10px;
     /* font-size: 20px; */
     font-weight: bold;
-    outline: 1px solid white;
+    outline: 4px solid white;
   }
   
   .search select {
@@ -301,6 +301,21 @@
     gap: 2px;
     align-items: center;
   }
+  .sign{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .sign p{
+    margin-left: 5px;
+  }
+  .accountList{
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+   
+  }
+  
   
   /* responsive header style */
   

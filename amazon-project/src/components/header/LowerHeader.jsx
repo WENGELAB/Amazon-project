@@ -1,15 +1,15 @@
 import React from 'react'
 import { IoIosMenu } from "react-icons/io";
 import classes from "../header/Header.module.css"
-import "../header/Lower.css"
+// import "../header/Lower.css"
 function LowerHeader() {
   return (
-    <div className={classes.Lower_container}> 
+    <div className={classes.lower_container}> 
       <ul>
       <li>
       <IoIosMenu />
-        <p>All</p>
       </li>
+      <li>All</li>
       <li>Todays's Deals</li>
       <li>Costumer service</li>
       <li>Registry</li>

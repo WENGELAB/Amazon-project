@@ -115,10 +115,10 @@ function Header() {
             </a>
 
             {/* Sign in */}
-            <a to="/auth">
+            <a className={classes.sign}to="/auth">
               <p>Sign In</p>
 
-              <select name="" id="">
+              <select className={classes.accountList}name="" id="">
                 <option value="">Account & Lists</option>
                 <optgroup label="Your Account">
                   <option value="">Account</option>
