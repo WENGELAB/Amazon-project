@@ -2,6 +2,7 @@ import React from 'react'
 import { BsSearch } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import classes from "../header/Header.module.css"
+import{Link} from 'react-router-dom'
 import { BiCart } from "react-icons/bi";
 import LowerHeader from './LowerHeader.jsx';
 
@@ -78,12 +79,12 @@ function Header() {
         <div className={classes.header_container}>
           {/* Logo section */}
           <div className={classes.logo_container}>
-            <a to="/">
+            <Link to="/">
               <img
                 src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
                 alt="amazon logo"
               />
-            </a>
+            </Link>
             <div className={classes.delivery}>
               <span>
                 <SlLocationPin />
@@ -104,7 +105,7 @@ function Header() {
           </div>
           {/* right side link */}
           <div className={classes.order_container}>
-            <a to="/orders" className={classes.language}>
+            <Link to="/orders" className={classes.language}>
               <img
                 src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1024px-Flag_of_the_United_States.svg.png"
                 alt="American Flag"
@@ -112,7 +113,7 @@ function Header() {
               <select name="" id="">
                 <option value="">EN</option>
               </select>
-            </a>
+            </Link>
 
             {/* Sign in */}
             <a className={classes.sign}to="/auth">
@@ -132,11 +133,11 @@ function Header() {
             </a>
 
             {/* orders */}
-            <a to="/orders">
+            <Link to="/orders">
               <p>Returns</p>
               <span>& Orders</span>
-            </a>
-            {/* Cart */}
+            </Link>
+            {/* Cart */} 
             <a href='' className={classes.cart}>
             <BiCart size={35} />
             <span>0</span>

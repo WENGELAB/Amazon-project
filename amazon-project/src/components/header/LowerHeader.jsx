@@ -15,6 +15,13 @@ function LowerHeader() {
       <li>Registry</li>
       <li>Gift Card</li>
       <li>Sell</li>
+      <li>prime</li>
+      <li>fasion</li>
+      <li>Amazon Basics</li>
+      <li>Customer Service</li>
+      <select name="" id="">
+        <option value="">Registry</option>
+      </select>
       </ul>
     </div>
   )
